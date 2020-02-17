@@ -1,4 +1,4 @@
-# BB-Y-Bot
+# BabyYoda's Bot
 Discord bot project made by Florian Br, Ugo Brz, Quentin Can.
 
 Made in Python, HTML/CSS, JavaScript and Centos Serveur on Raspberry Pi 4
