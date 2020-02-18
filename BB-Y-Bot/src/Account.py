@@ -1,19 +1,17 @@
 import discord
+import json
 
 class Account:
 
-    def __init__(self, user : discord.User, id : discord.ClientUser.id):
-        self.__user = user
-        self.__id = id
+    def __init__(self, user: discord.User, id: discord.ClientUser.id):
+        self.user = user
+        self.id = id
         self.__balance = 0
 
-    def addMoney(self, add):
-        self._balance += add
-
+        
     @property
     def balance(self):
-        self.__balance += 10 #Used for testing only
-        return self.__balance
+        pass
 
     @balance.setter
     def balance(self, money):
