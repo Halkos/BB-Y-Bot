@@ -9,6 +9,7 @@ Made in Python, HTML/CSS, JavaScript and Centos Serveur on Raspberry Pi 4
 - [ ] Documentation (Using Sphinx)
 - [ ] Mini-games (Based on money system) :
     - Loup-Garou
+    - ...
 - [ ] List of all commands and fixes on commands todo :
     - Fix specific commands error
     - ...
