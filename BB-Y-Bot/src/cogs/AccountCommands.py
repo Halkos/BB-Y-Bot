@@ -11,21 +11,20 @@ class AccountCommands(commands.Cog):
         self.bot = bot
 
     @commands.Cog.listener()
-    async def on_member_join(self, ctx, member):
-        account = Account(member, member.id)
+    async def on_member_join(self, member, ctx):
         with open('/Users/florianbriquet/Documents/BB-Y-Bot/BB-Y-Bot/misc/account.json', 'r') as f:
             users_account = json.load(f)
 
         await self.update_data(users_account, member)
 
         with open('/Users/florianbriquet/Documents/BB-Y-Bot/BB-Y-Bot/misc/account.json', 'w') as f:
-            json.dump(users_account, indent=4)
-
+            json.dump(users_account, f, indent=4)
+        """
         await ctx.send(f"Bienvenu {ctx.message.author.mention}")
         await ctx.send(
             f"Nouveau compte créé pour l'utilisateur : {ctx.message.author} avec l'id : {ctx.message.author.id}")
         await ctx.send(f"Le compte possède {account.balance} Zemid")
-
+"""
     async def update_data(self, users, user):
         if users.get(str(user.id)) is None:
             print('test')
