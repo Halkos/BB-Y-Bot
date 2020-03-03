@@ -7,6 +7,7 @@ Made in Python, HTML/CSS, JavaScript and Centos Serveur on Raspberry Pi 4
 
 - [ ] Documentation (Using Sphinx)
 - [ ] Money System
+- [ ] Haut-Faits
 - [ ] Mini-games (Based on money system) :
     - Loup-Garou
     - Casino Games
