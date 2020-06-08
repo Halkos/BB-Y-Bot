@@ -1,7 +1,7 @@
 # BabyYoda's Bot
-Discord bot project made by Florian Br, Ugo Brz, Quentin Can.
+Discord bot project made by Florian Briquet
 
-Made in Python, HTML/CSS, JavaScript and Centos Serveur on Raspberry Pi 4
+Made in Python, HTML/CSS, JavaScript and Ubuntu on Raspberry Pi 4
 
 ### TODO
 
